@@ -8,7 +8,7 @@ function cargarListado(){
         console.log(pokemons)
         pokemons.forEach((p)=>{
             miDiv.innerHTML+=`
-                <button class="btn btn-primary m-2 col-5" 
+                <button class="btn btn-info m-2 col-5" 
                 onclick="crearImagen('${p.url}')">${p.name}</button> 
             `;
         })
